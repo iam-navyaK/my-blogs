@@ -1,4 +1,4 @@
-# my-blogs
+########################## my-blogs  ###############################################3
 
 How to Connect Multiple APIs?
 
@@ -24,3 +24,22 @@ Implement robust error handling to deal with failed API calls or inconsistent da
 
 -Testing and Monitoring:
 Test the system with mock data to ensure all APIs work harmoniously. Use monitoring tools to track API performance and downtime.
+
+
+ ##########################################################################################################
+
+A JavaScript callback is a function passed as an argument to another function, which is then executed inside the outer function. It allows asynchronous operations, like fetching data, to be handled effectively. For example, when making an API call, a callback can process the response after the data is retrieved. Callbacks are used in functions like setTimeout, forEach, or event listeners. 
+
+```javascript
+function fetchData(callback) {
+  setTimeout(() => {
+    callback("Data loaded!");
+  }, 1000);
+}
+
+fetchData((message) => console.log(message));
+```
+
+In this,callback ensures the operation runs only after completion.
+
+ 
