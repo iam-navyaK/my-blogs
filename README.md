@@ -42,4 +42,6 @@ fetchData((message) => console.log(message));
 
 In this,callback ensures the operation runs only after completion.
 
+#####################################################################################
+A callback function in JavaScript is a function passed as an argument to another function and executed later, often after an operation completes. Callbacks are commonly used in asynchronous programming, such as handling API requests, file reading, and timers. They also appear in built-in methods like `forEach`, `map`, and `filter` to process arrays. By using callbacks, developers can write modular, reusable, and non-blocking code, ensuring smooth execution without halting the program flow.
  
